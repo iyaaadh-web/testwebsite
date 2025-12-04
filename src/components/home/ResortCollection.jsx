@@ -7,84 +7,84 @@ const ResortCollection = () => {
             name: "Soneva Jani",
             atoll: "Noonu Atoll",
             description: "Overwater villas with slides into the lagoon",
-            image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c78?q=80&w=2069&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Gili Lankanfushi",
             atoll: "North Male Atoll",
             description: "Eco-luxury overwater bungalows",
-            image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?q=80&w=2088&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Baros Maldives",
             atoll: "North Male Atoll",
             description: "Intimate island with pristine beaches",
-            image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2080&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=2065&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Anantara Kihavah",
             atoll: "Baa Atoll",
             description: "UNESCO Biosphere Reserve luxury",
-            image: "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?q=80&w=2074&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=1974&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Conrad Maldives",
             atoll: "South Ari Atoll",
             description: "Twin-island paradise resort",
-            image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=1974&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?q=80&w=1974&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Velaa Private Island",
             atoll: "Noonu Atoll",
             description: "Ultra-luxury private island experience",
-            image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1439066615861-d1fbced6530e?q=80&w=2070&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Four Seasons Landaa Giraavaru",
             atoll: "Baa Atoll",
             description: "Wellness and marine discovery",
-            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1605538108596-795d788d9eb5?q=80&w=2070&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "One&Only Reethi Rah",
             atoll: "North Male Atoll",
             description: "Exclusive island sanctuary",
-            image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Cheval Blanc Randheli",
             atoll: "Noonu Atoll",
             description: "French elegance meets Maldivian beauty",
-            image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1560252019-357f8854650d?q=80&w=2070&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Waldorf Astoria Maldives",
             atoll: "South Male Atoll",
             description: "Contemporary luxury and sophistication",
-            image: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?q=80&w=2074&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "The St. Regis Maldives",
             atoll: "Vommuli Island",
             description: "Exquisite beachfront villas",
-            image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1537639622086-73570d4564ed?q=80&w=2070&auto=format&fit=crop",
             stars: 5
         },
         {
             name: "Six Senses Laamu",
             atoll: "Laamu Atoll",
             description: "Sustainable luxury in untouched nature",
-            image: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=2026&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=2021&auto=format&fit=crop",
             stars: 5
         }
     ];
@@ -113,18 +113,18 @@ const ResortCollection = () => {
                                 <img
                                     src={resort.image}
                                     alt={resort.name}
-                                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                                    className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                                    <div className="flex items-center mb-2">
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-90" />
+                                <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                                    <div className="flex items-center mb-3">
                                         {[...Array(resort.stars)].map((_, i) => (
-                                            <span key={i} className="text-brand-orange text-sm">★</span>
+                                            <span key={i} className="text-brand-orange text-sm drop-shadow-md">★</span>
                                         ))}
                                     </div>
-                                    <h3 className="text-2xl font-serif font-bold mb-1 text-brand-orange">{resort.name}</h3>
-                                    <p className="text-sm text-gray-300 mb-2">{resort.atoll}</p>
-                                    <p className="text-sm text-gray-200">{resort.description}</p>
+                                    <h3 className="text-2xl font-serif font-bold mb-2 text-brand-orange drop-shadow-lg">{resort.name}</h3>
+                                    <p className="text-sm text-gray-200 mb-2 font-medium drop-shadow-md">{resort.atoll}</p>
+                                    <p className="text-sm text-gray-100 drop-shadow-md">{resort.description}</p>
                                 </div>
                             </div>
                         </motion.div>
