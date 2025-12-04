@@ -9,7 +9,11 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand */}
                     <div>
-                        <h3 className="text-2xl font-serif font-bold mb-6 text-brand-orange">FASMALA</h3>
+                        <img
+                            src="/logo.png"
+                            alt="Fasmala Travels Logo"
+                            className="h-16 w-auto mb-6"
+                        />
                         <p className="text-gray-400 leading-relaxed mb-6">
                             Curating unforgettable journeys to the Maldives' most exclusive islands. Experience luxury, adventure, and serenity.
                         </p>

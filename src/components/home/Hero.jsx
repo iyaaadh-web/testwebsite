@@ -26,7 +26,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
-                    className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 tracking-wide"
+                    className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 tracking-tight leading-tight"
                 >
                     Discover the <br /> <span className="text-brand-orange italic">Untouched</span> Maldives
                 </motion.h1>
@@ -35,23 +35,23 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.8 }}
-                    className="text-lg md:text-xl max-w-2xl mb-10 font-light tracking-wider"
+                    className="text-xl md:text-2xl max-w-3xl mb-12 font-light tracking-wide leading-relaxed"
                 >
-                    Curated journeys to the world's most breathtaking islands.
+                    Curated journeys to the world's most breathtaking islands
                 </motion.p>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 1.1 }}
-                    className="flex flex-col md:flex-row gap-4"
+                    className="flex flex-col md:flex-row gap-6"
                 >
-                    <button className="px-8 py-4 bg-brand-orange text-white font-semibold tracking-widest hover:bg-white hover:text-brand-dark transition-all duration-300">
-                        PLAN YOUR TRIP
-                    </button>
-                    <button className="px-8 py-4 border border-white text-white font-semibold tracking-widest hover:bg-white hover:text-brand-dark transition-all duration-300">
-                        EXPLORE PACKAGES
-                    </button>
+                    <a href="/contact" className="px-10 py-4 bg-brand-orange text-white font-semibold uppercase tracking-widest hover:bg-white hover:text-brand-dark transition-all duration-300 shadow-lg hover:shadow-xl">
+                        Contact Us
+                    </a>
+                    <a href="/collection" className="px-10 py-4 border-2 border-white text-white font-semibold uppercase tracking-widest hover:bg-white hover:text-brand-dark transition-all duration-300">
+                        Explore Collection
+                    </a>
                 </motion.div>
             </div>
 

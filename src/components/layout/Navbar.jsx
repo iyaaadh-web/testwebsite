@@ -23,35 +23,35 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-3' : 'bg-white/90 backdrop-blur-sm shadow-md py-4'
+            className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/98 backdrop-blur-lg shadow-lg py-3' : 'bg-white/95 backdrop-blur-md shadow-md py-5'
                 }`}
         >
-            <div className="container mx-auto px-6 flex justify-between items-center">
-                <Link to="/" className="flex items-center gap-3">
-                    {/* Logo Image */}
+            <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
+                <Link to="/" className="flex items-center gap-3 group">
+                    {/* Logo Image with enhanced styling */}
                     <img
                         src="/logo.png"
                         alt="Fasmala Travels Logo"
-                        className="h-12 w-auto"
+                        className="h-14 w-auto transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
                     />
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-8">
+                <div className="hidden md:flex items-center space-x-10">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             to={link.path}
-                            className="text-sm uppercase tracking-wider text-brand-dark hover:text-brand-orange transition-colors"
+                            className="text-sm font-medium uppercase tracking-widest text-brand-dark hover:text-brand-orange transition-colors duration-300"
                         >
                             {link.name}
                         </Link>
                     ))}
                     <Link
                         to="/contact"
-                        className="px-6 py-2 border border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white transition-all duration-300"
+                        className="px-8 py-3 border-2 border-brand-orange text-brand-orange font-semibold uppercase tracking-wider hover:bg-brand-orange hover:text-white transition-all duration-300 rounded-sm"
                     >
-                        Plan Your Trip
+                        Contact Us
                     </Link>
                 </div>
 
