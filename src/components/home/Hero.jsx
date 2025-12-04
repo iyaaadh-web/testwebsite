@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 const Hero = () => {
     return (
         <div className="relative h-screen w-full overflow-hidden">
-            {/* Image Background */}
+            {/* Image Background - Lighter image for better navbar visibility */}
             <div className="absolute inset-0">
-                <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50 z-10" /> {/* Elegant gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30 z-10" /> {/* Lighter overlay */}
                 <img
-                    src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=2065&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop"
                     alt="Maldives Paradise"
                     className="w-full h-full object-cover"
                 />
