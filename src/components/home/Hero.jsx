@@ -20,7 +20,7 @@ const Hero = () => {
 
             {/* Content */}
             <div className="relative z-20 h-full flex flex-col justify-center items-center text-center text-white px-4">
-                <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 max-w-4xl">
+                <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 max-w-4xl text-white">
                     Discover the Untouched Maldives
                 </h1>
 

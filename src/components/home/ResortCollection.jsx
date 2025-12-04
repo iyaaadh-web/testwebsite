@@ -44,6 +44,48 @@ const ResortCollection = () => {
             description: "Ultra-luxury private island experience",
             image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
             stars: 5
+        },
+        {
+            name: "Four Seasons Landaa Giraavaru",
+            atoll: "Baa Atoll",
+            description: "Wellness and marine discovery",
+            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+            stars: 5
+        },
+        {
+            name: "One&Only Reethi Rah",
+            atoll: "North Male Atoll",
+            description: "Exclusive island sanctuary",
+            image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+            stars: 5
+        },
+        {
+            name: "Cheval Blanc Randheli",
+            atoll: "Noonu Atoll",
+            description: "French elegance meets Maldivian beauty",
+            image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=2070&auto=format&fit=crop",
+            stars: 5
+        },
+        {
+            name: "Waldorf Astoria Maldives",
+            atoll: "South Male Atoll",
+            description: "Contemporary luxury and sophistication",
+            image: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?q=80&w=2074&auto=format&fit=crop",
+            stars: 5
+        },
+        {
+            name: "The St. Regis Maldives",
+            atoll: "Vommuli Island",
+            description: "Exquisite beachfront villas",
+            image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop",
+            stars: 5
+        },
+        {
+            name: "Six Senses Laamu",
+            atoll: "Laamu Atoll",
+            description: "Sustainable luxury in untouched nature",
+            image: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=2026&auto=format&fit=crop",
+            stars: 5
         }
     ];
 
@@ -87,15 +129,6 @@ const ResortCollection = () => {
                             </div>
                         </motion.div>
                     ))}
-                </div>
-
-                <div className="text-center mt-12">
-                    <a
-                        href="/collection"
-                        className="inline-block px-10 py-4 bg-brand-orange text-white font-semibold uppercase tracking-wider hover:bg-brand-dark transition-colors duration-300"
-                    >
-                        View All Resorts
-                    </a>
                 </div>
             </div>
         </section>

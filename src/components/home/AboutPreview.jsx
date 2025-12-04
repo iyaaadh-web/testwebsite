@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 const AboutPreview = () => {
     return (
         <section className="py-20 bg-brand-dark text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://images.unsplash.com/photo-1578922746465-3a80a228f28f?q=80&w=1974&auto=format&fit=crop')] bg-cover bg-center opacity-20 hidden md:block" />
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=2065&auto=format&fit=crop')] bg-cover bg-center opacity-20 hidden md:block" />
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="md:w-1/2">
