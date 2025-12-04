@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../components/home/Hero';
-import Destinations from '../components/home/Destinations';
 import AboutPreview from '../components/home/AboutPreview';
 import ResortCollection from '../components/home/ResortCollection';
 import SustainableTravel from '../components/home/SustainableTravel';
@@ -10,7 +9,6 @@ const HomePage = () => {
     return (
         <div>
             <Hero />
-            <Destinations />
             <AboutPreview />
             <ResortCollection />
             <SustainableTravel />

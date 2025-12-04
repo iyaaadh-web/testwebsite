@@ -7,15 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brand-orange': '#F5A623',
-        'brand-dark': '#1A1A1A',
-        'brand-light': '#FFF5E6',
-        offwhite: '#F8F9FA',
+        'brand-orange': '#FF6B35',
+        'brand-dark': '#2C3E50',
+        'brand-light': '#FFF8F3',
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'serif'],
-        sans: ['Lato', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
+      backgroundColor: {
+        'offwhite': '#FAFAFA',
+      }
     },
   },
   plugins: [],
